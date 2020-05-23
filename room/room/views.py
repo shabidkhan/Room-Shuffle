@@ -6,8 +6,7 @@ def ShuffleRoom():
     r6 = ['Deepak Sharma', 'Deepak patel', 'S.Vivak', 'Paranthaman', 'Chandan Sahoo', 'Ramesh', 'Sanjay', 'Shabid Khan','Amarpal','Riyaz Khan']
     r7 = ['Sonu', 'Rahit Roy', 'Bhaskar', 'Prabhakar', 'biju', 'Shubham', 'Teja', 'Rahul']
     r8 = ['Tarique', 'Kaushal Sahoo', 'Abhishek', 'Himanshu', 'Mohit', 'Aakash']
-    r9 = ['pralhad', 'Ajay'
-          ]
+    r9 = ['pralhad', 'Ajay']
     r10 = ['Kirithiv', 'Bijendra', 'Umesh', 'Peter', 'Tapas']
     r11 = ['Yousaf', 'Viresh', 'Prince', 'Rakesh', 'Rohit']
     r12 = ['Somesh', 'Aman Kumar', 'Ankur ', 'Vishal kumar', 'Vishal', 'Akhilesh']
@@ -84,15 +83,6 @@ def ShuffleRoom():
 def home(request):
     if os.path.exists('RoomData.json')==False:
         FinalBedDict = ShuffleRoom()
-        for i in FinalBedDict:
-          j=0
-          while(j<len(FinalBedDict[i])-1):
-              if FinalBedDict[i][j]['Bed']>FinalBedDict[i][j+1]['Bed']:
-                  FinalBedDict[i][j],FinalBedDict[i][j+1]=FinalBedDict[i][j+1],FinalBedDict[i][j]
-                  j=0
-              else:
-                  j+=1
-
         File = open('RoomData.json','w')
         json.dump(FinalBedDict,File,indent=4)
         File.close()
@@ -100,5 +90,15 @@ def home(request):
     file=  json.load(file)
 
 
+    for i in file:
+        j = 0
+        while (j < len(file[i]) - 1):
+            if file[i][j]['Bed'] > file[i][j + 1]['Bed']:
+                file[i][j], file[i][j + 1] = file[i][j + 1], file[i][j]
+                if 'Count' in file[i][j+1]:
+                    file[i][j]['Count']=file[i][j+1]['Count']
+                j = 0
+            else:
+                j += 1
 
     return render(request,'home.html',{'file':file })
