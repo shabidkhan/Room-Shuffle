@@ -1,0 +1,276 @@
+{
+    "1": [
+        {
+            "Name": "Vishal kumar",
+            "Bed": 1,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Sanjay",
+            "Bed": 2,
+            "Position": "Upper Side Bed ",
+            "Count": 6
+        },
+        {
+            "Name": "Viresh",
+            "Bed": 3,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Sonu",
+            "Bed": 4,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Prabhakar",
+            "Bed": 5,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Bijendra",
+            "Bed": 7,
+            "Position": "Down Side Bed"
+        }
+    ],
+    "6": [
+        {
+            "Name": "Vishal",
+            "Bed": 9,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Akhilesh",
+            "Bed": 10,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Tarique",
+            "Bed": 11,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Yousaf",
+            "Bed": 12,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Rakesh",
+            "Bed": 13,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Rohit",
+            "Bed": 14,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Muneer",
+            "Bed": 15,
+            "Position": "Down Side Bed",
+            "Count": 8
+        },
+        {
+            "Name": "Rahit Roy",
+            "Bed": 16,
+            "Position": "Upper Side Bed "
+        }
+    ],
+    "7": [
+        {
+            "Name": "Abhishek",
+            "Bed": 19,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "khalil",
+            "Bed": 20,
+            "Position": "Upper Side Bed ",
+            "Count": 8
+        },
+        {
+            "Name": "Kaushal Sahoo",
+            "Bed": 21,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Paranthaman",
+            "Bed": 22,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Deepak patel",
+            "Bed": 23,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Tapas",
+            "Bed": 24,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Umesh",
+            "Bed": 25,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Kumar Nayak",
+            "Bed": 26,
+            "Position": "Upper Side Bed "
+        }
+    ],
+    "8": [
+        {
+            "Name": "Bhavnesh",
+            "Bed": 27,
+            "Position": "Down Side Bed",
+            "Count": 6
+        },
+        {
+            "Name": "Ajay",
+            "Bed": 28,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Chandan Sahoo",
+            "Bed": 29,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "pralhad",
+            "Bed": 30,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Ramesh",
+            "Bed": 31,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Shabid Khan",
+            "Bed": 32,
+            "Position": "Upper Side Bed "
+        }
+    ],
+    "9": [
+        {
+            "Name": "biju",
+            "Bed": 33,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Amarpal",
+            "Bed": 34,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Kirithiv",
+            "Bed": 35,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Bilal",
+            "Bed": 36,
+            "Position": "Upper Side Bed ",
+            "Count": 4
+        }
+    ],
+    "10": [
+        {
+            "Name": "Himanshu",
+            "Bed": 38,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Bhaskar",
+            "Bed": 39,
+            "Position": "Down Side Bed",
+            "Count": 6
+        },
+        {
+            "Name": "Aman Kumar",
+            "Bed": 40,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Rahul",
+            "Bed": 41,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Prince",
+            "Bed": 42,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Somesh",
+            "Bed": 44,
+            "Position": "Upper Side Bed "
+        }
+    ],
+    "11": [
+        {
+            "Name": "Raju",
+            "Bed": 45,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Rohit Roy",
+            "Bed": 47,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Navid Manshuri",
+            "Bed": 48,
+            "Position": "Upper Side Bed ",
+            "Count": 5
+        },
+        {
+            "Name": "Mohit",
+            "Bed": 49,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Aakash",
+            "Bed": 50,
+            "Position": "Upper Side Bed "
+        }
+    ],
+    "12": [
+        {
+            "Name": "Ankur ",
+            "Bed": 51,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Peter",
+            "Bed": 54,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "S.Vivak",
+            "Bed": 55,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Teja",
+            "Bed": 56,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Riyaz Khan",
+            "Bed": 57,
+            "Position": "Down Side Bed"
+        },
+        {
+            "Name": "Shubham",
+            "Bed": 58,
+            "Position": "Upper Side Bed "
+        },
+        {
+            "Name": "Deepak Sharma",
+            "Bed": 59,
+            "Position": "Down Side Bed",
+            "Count": 7
+        }
+    ]
+}

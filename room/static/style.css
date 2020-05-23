@@ -1,0 +1,15 @@
+  .selector-for-some-widget {
+  box-sizing: content-box;
+}
+.logo{
+   margin: 1px auto;
+  -webkit-animation: sk-rotateplane 2.5s infinite ease-in-out;
+  animation: sk-rotateplane 2.5s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  21% { -webkit-transform: perspective(720px) }
+  50% { -webkit-transform: perspective(720px) rotateY(0deg) }
+  100% { -webkit-transform: perspective(720px) rotateY(360deg)  rotateX(0deg) }
+}
+}
